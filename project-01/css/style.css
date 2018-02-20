@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+
+
+img.floatRight { 
+  	position: fixed;
+  	top: 200px;
+  	right: 200px;
+  	width: 400px;
+  	padding: 5px;
+}
+
+h1 {
+	color: #a50000;
+	letter-spacing: 2px;
+	display: block;
+	position: fixed;
+    right: 170px;
+}
+
+body {
+	background: #636363;
+	font-family: 'VT323', monospace;
+	font-size: 1.5em;
+	color: #000;
+	cursor: url(http://icons.iconarchive.com/icons/calle/black-knight/32/Sword-Left-icon.png), auto;
+}
+
+textarea {
+	width: 100%;
+	height: 150px;
+	font-size: 2em;
+	font-family: 'VT323', monospace;
+}
+
+a {
+	color: #ce0000;
+	cursor: url(http://icons.iconarchive.com/icons/calle/black-knight/32/Sword-Left-icon.png), auto;
+}
+
+a:hover {
+	cursor: url(http://icons.iconarchive.com/icons/calle/black-knight/32/Sword-Left-icon.png), auto;
+}
+
+input[type=radio]:checked + label {
+	color: #1925ff;
+}
+
+#radio02[type=radio]:checked + label {
+	color: #ce0000;
+}
+
+input[type=radio] + label {
+	color: #fff;
+}
+
+input:hover {
+	cursor: url(http://icons.iconarchive.com/icons/calle/black-knight/32/Sword-Left-icon.png), auto;
+
+}
+
+label:hover {
+	cursor: url(http://icons.iconarchive.com/icons/calle/black-knight/32/Sword-Left-icon.png), auto;
+
+}
+
+.main {
+	background: #636363;
+	padding: 3em;
+
+}
+
+::selection {
+    background-color: #000;
+    color: #fff;
